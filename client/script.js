@@ -82,7 +82,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const responce = await fetch("http://localhost:5000", {
+  const responce = await fetch("https://codeai-tp8y.onrender.com", {
     "method": 'POST',
     'headers': {
       'Content-Type': 'application/json'
